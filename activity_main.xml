@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc107"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dateText"
+        android:text="Today"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+    android:id="@+id/dobText"
+        android:layout_below="@+id/dateText"
+    android:text="Date of Birth"
+    android:textSize="25sp"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_below="@+id/dobText"
+        android:text="age"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+      <Button
+        android:id="@+id/dobBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageText"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="#e91e63"
+        android:padding="5dp"
+        android:text="Enter your birthday" />
+    <Button
+        android:id="@+id/calbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dobBtn"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="#e91e63"
+        android:padding="5dp"
+        android:text="calculate age" />
+
+
+
+
+
+
+</RelativeLayout>
